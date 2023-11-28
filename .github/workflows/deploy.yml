@@ -1,0 +1,44 @@
+name: Deploy
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  frontend-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 20.10.0
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Create .env (environment variables file)
+      run: >
+        npx ts-node .github/createEnviron.ts
+        --BASE_PATH ${{ secrets.BASE_PATH }}
+        --ASSETS_URL ${{ secrets.ASSETS_URL }}
+
+    - name: Build app
+      run: npm run build
+
+    - name: Deploy
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        protocol: ${{ secrets.PROTOCOL }}
+        port: ${{ secrets.PORT }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/.vscode/**
+          **/node_modules/**
+          **/.env*
