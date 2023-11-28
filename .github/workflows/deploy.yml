@@ -21,7 +21,7 @@ jobs:
 
     - name: Create .env (environment variables file)
       run: >
-        npx ts-node .github/createEnviron.ts
+        node --loader ts-node/esm .github/createEnviron.ts
         --BASE_PATH ${{ secrets.BASE_PATH }}
         --ASSETS_URL ${{ secrets.ASSETS_URL }}
 
