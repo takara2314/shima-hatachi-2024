@@ -1,4 +1,4 @@
-# 令和6年 志摩市二十歳の集い（旧成人式） ウェブサイト
+# 令和6年 志摩市二十歳の集い ウェブサイト
 
 ![Framework: Svelte](https://img.shields.io/badge/Framework-Svelte-ff4000?style=for-the-badge&logo=svelte)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-000000?style=for-the-badge)
