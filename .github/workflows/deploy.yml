@@ -29,16 +29,12 @@ jobs:
       run: npm run build
 
     - name: Deploy
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-      with:
-        server: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        protocol: ${{ secrets.PROTOCOL }}
-        port: ${{ secrets.PORT }}
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/.vscode/**
-          **/node_modules/**
-          **/.env*
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.HOST }}
+        FTP_USERNAME: ${{ secrets.USERNAME }}
+        FTP_PASSWORD: ${{ secrets.PASSWORD }}
+        METHOD: ${{ secrets.PROTOCOL }}
+        LOCAL_DIR: build
+        REMOTE_DIR: ${{ secrets.REMOTE_PATH }}
+        ARGS: --delete --parallel=10
