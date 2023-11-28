@@ -1,7 +1,9 @@
+import minimist from 'minimist';
 import fs from 'fs';
 
 // 環境変数をコマンドラインから取得
-const vars = require('minimist')(process.argv.slice(2));
+const vars = minimist(process.argv.slice(2));
+// @ts-ignore
 delete vars._;
 
 // 環境変数ファイルに書き込む内容を作成
