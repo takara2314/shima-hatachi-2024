@@ -1,7 +1,46 @@
-<section id="contact">
+<script>
+  import SecondaryLinkBtn from '../../components/buttons/SecondaryLinkBtn.svelte';
+</script>
+
+<section
+  id="contact"
+  class="
+    mt-32 px-5 w-full h-full leading-8 text-center
+    flex flex-col items-center
+  "
+>
   <h2>
     お問い合わせ
   </h2>
 
-  テキスト
+  <div>
+    教育委員会事務局 生涯学習スポーツ課
+  </div>
+
+  <div class="my-5">
+    <div>
+      〒517-0592
+    </div>
+    <div>
+      三重県志摩市阿児町鵜方3098番地22
+    </div>
+    <div>
+      <span class="select-none">
+        電話番号：
+      </span>
+      <a href="tel:0599-44-0339">
+        0599-44-0339
+      </a>
+    </div>
+    <div>
+      <span class="select-none">
+        ファックス：
+      </span>
+      0599-44-5263
+    </div>
+  </div>
+
+  <SecondaryLinkBtn>
+    お問い合わせはこちらから
+  </SecondaryLinkBtn>
 </section>
