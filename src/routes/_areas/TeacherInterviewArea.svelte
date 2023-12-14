@@ -23,7 +23,7 @@
     mt-10 p-5 w-full aspect-video bg-neutral-300
     flex flex-col items-center justify-center gap-5
   ">
-    <h3 class="text-5xl font-header">
+    <h3 class="text-5xl font-heading">
       会場で上映
     </h3>
 

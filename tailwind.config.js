@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         'sans': ['"Klee One"', 'Meiryo', 'sans-serif'],
-        'header': ['"Train One"', '"Klee One"', 'Meiryo', 'sans-serif']
+        'heading': ['"Train One"', '"Klee One"', 'Meiryo', 'sans-serif']
       }
     }
   },
