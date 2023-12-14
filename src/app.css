@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 body {
+    -webkit-tap-highlight-color: transparent;
     @apply text-gray-900;
 }
 

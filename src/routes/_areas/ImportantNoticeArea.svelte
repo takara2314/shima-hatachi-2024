@@ -8,6 +8,7 @@
 <Area
   id="important-notice"
   marginClass="mt-2"
+  defaultShowing
 >
   <div class="flex flex-row gap-4">
     <span>
