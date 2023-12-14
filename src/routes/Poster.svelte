@@ -1,6 +1,10 @@
+<script>
+  import { asset } from '$lib/asset';
+</script>
+
 <section id="poster">
   <img
-    src="/poster.webp"
+    src={asset('/poster.webp')}
     alt="ポスター"
     class="w-full"
   />
