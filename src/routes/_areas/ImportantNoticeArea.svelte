@@ -1,4 +1,5 @@
 <script>
+  import { asset } from '$lib/asset';
   import Area from '../../components/Area.svelte';
   import PrimaryLinkBtn from '../../components/buttons/PrimaryLinkBtn.svelte';
   import SecondaryLinkBtn from '../../components/buttons/SecondaryLinkBtn.svelte';
@@ -29,7 +30,7 @@
     </span>
   </div>
 
-  <PrimaryLinkBtn href="/pamphlet.pdf">
+  <PrimaryLinkBtn href={asset('/pamphlet.pdf')}>
     パンフレットはこちら
   </PrimaryLinkBtn>
 
