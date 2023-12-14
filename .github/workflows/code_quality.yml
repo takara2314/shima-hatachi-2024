@@ -22,6 +22,7 @@ jobs:
         node --loader ts-node/esm .github/createEnviron.ts
         --BASE_PATH ${{ secrets.BASE_PATH }}
         --ASSETS_URL ${{ secrets.ASSETS_URL }}
+        --PUBLIC_SITE_URL ${{ secrets.ASSETS_URL }}
 
     - name: Build app for testing
       run: npm run build

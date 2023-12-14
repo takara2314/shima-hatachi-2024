@@ -3,9 +3,11 @@
 </script>
 
 <section id="poster">
-  <img
-    src={asset('/poster.webp')}
-    alt="ポスター"
-    class="w-full"
-  />
+  <div class="w-screen h-[calc(100dvw*784/720)]">
+    <img
+      src={asset('/poster.webp')}
+      alt="ポスター"
+      class="w-full"
+    />
+  </div>
 </section>

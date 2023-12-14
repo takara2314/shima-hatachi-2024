@@ -1,4 +1,5 @@
 <script>
+  import MetaTags from '../components/MetaTags.svelte';
   import Poster from './Poster.svelte';
   import ImportantNoticeArea from './_areas/ImportantNoticeArea.svelte';
   import ThemeArea from './_areas/ThemeArea.svelte';
@@ -10,6 +11,10 @@
   import ContactArea from './_areas/ContactArea.svelte';
   import SnsSharePopup from './SnsSharePopup.svelte';
 </script>
+
+<MetaTags
+  description="平成15年4月2日から平成16年4月1日生まれの人を対象にした、志摩市の二十歳の集い（旧成人式）のページです"
+/>
 
 <main class="
   w-full h-full

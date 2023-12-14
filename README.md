@@ -1,5 +1,9 @@
 # 令和6年 志摩市二十歳の集い ウェブサイト
 
+<a href="https://github.com/takara2314/shima-hatachi-2024">
+    <img src="./static/ogp.webp" alt="OGP" />
+</a>
+
 ![Framework: Svelte](https://img.shields.io/badge/Framework-Svelte-ff4000?style=for-the-badge&logo=svelte)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-000000?style=for-the-badge)
 
@@ -9,7 +13,7 @@
 
 ## サイト
 
-Coming soon...
+[web.city.shima.mie.jp/twenty/](https://web.city.shima.mie.jp/twenty/)
 
 ## ライセンス
 
