@@ -15,5 +15,5 @@ h2 {
 }
 
 h2::after {
-    @apply mt-1 w-full content-[''] border-b-2 border-red-500 block;
+    @apply mt-1 mb-6 w-full content-[''] border-b-2 border-red-500 block;
 }

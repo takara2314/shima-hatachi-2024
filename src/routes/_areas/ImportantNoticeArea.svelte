@@ -1,9 +1,8 @@
 <script>
-
-    import PrimaryLinkBtn from "../../components/buttons/PrimaryLinkBtn.svelte";
-    import SecondaryLinkBtn from "../../components/buttons/SecondaryLinkBtn.svelte";
-
+  import PrimaryLinkBtn from '../../components/buttons/PrimaryLinkBtn.svelte';
+  import SecondaryLinkBtn from '../../components/buttons/SecondaryLinkBtn.svelte';
 </script>
+
 <section
   id="important-notice"
   class="
