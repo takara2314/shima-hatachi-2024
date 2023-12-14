@@ -21,7 +21,7 @@
   </div>
 
   <div class="
-    mt-10 p-5 w-full aspect-video bg-neutral-300
+    mt-10 p-5 w-full aspect-video select-none bg-neutral-300
     flex flex-col items-center justify-center gap-5
   ">
     <h3 class="text-5xl font-heading">
