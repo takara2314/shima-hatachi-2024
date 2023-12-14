@@ -1,11 +1,7 @@
-<script>
-  import H2 from '../../components/headers/H2.svelte';
-</script>
-
 <section id="theme">
-  <H2>
+  <h2>
     テーマは「好天」
-  </H2>
+  </h2>
 
   テキスト
 </section>

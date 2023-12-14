@@ -9,3 +9,11 @@ body {
     height: 100dvh;
     @apply text-gray-900;
 }
+
+h2 {
+    @apply w-full text-2xl text-red-500;
+}
+
+h2::after {
+    @apply mt-1 w-full content-[''] border-b-2 border-red-500 block;
+}
