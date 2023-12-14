@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=M+PLUS+1p:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Train+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,5 +7,13 @@
 body {
     width: 100dvw;
     height: 100dvh;
-    @apply text-gray-900 bg-gray-50;
+    @apply text-gray-900;
+}
+
+h2 {
+    @apply w-full text-2xl font-heading text-red-500;
+}
+
+h2::after {
+    @apply mt-1 mb-6 w-full content-[''] border-b-2 border-red-500 block;
 }
