@@ -1,10 +1,8 @@
-<section
-  id="sns-share"
-  class="
-    mt-32 px-5 w-full h-full leading-8 text-center
-    flex flex-col items-center
-  "
->
+<script>
+  import Area from '../../components/Area.svelte';
+</script>
+
+<Area id="sns-share">
   <h2>
     思い出を投稿しよう！
   </h2>
@@ -22,4 +20,4 @@
     」
     をつけてみんなと共有しましょう！
   </p>
-</section>
+</Area>

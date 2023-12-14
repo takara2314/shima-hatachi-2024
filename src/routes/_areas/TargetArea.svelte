@@ -1,10 +1,8 @@
-<section
-  id="target"
-  class="
-    mt-32 px-5 w-full h-full leading-8 text-center
-    flex flex-col items-center
-  "
->
+<script>
+  import Area from '../../components/Area.svelte';
+</script>
+
+<Area id="target">
   <h2>
     対象者
   </h2>
@@ -15,4 +13,4 @@
   <p>
     平成16年（2004年）4月1日生まれの人
   </p>
-</section>
+</Area>

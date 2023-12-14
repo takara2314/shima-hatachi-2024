@@ -1,14 +1,9 @@
 <script>
+  import Area from '../../components/Area.svelte';
   import SecondaryLinkBtn from '../../components/buttons/SecondaryLinkBtn.svelte';
 </script>
 
-<section
-  id="for-outside-participant"
-  class="
-    mt-32 px-5 w-full h-full leading-8 text-center
-    flex flex-col items-center
-  "
->
+<Area id="for-outside-participant">
   <h2>
     市外に住所がある人へ
   </h2>
@@ -20,4 +15,4 @@
   <SecondaryLinkBtn>
     案内状送付依頼フォーム
   </SecondaryLinkBtn>
-</section>
+</Area>

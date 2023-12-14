@@ -1,10 +1,8 @@
-<section
-  id="theme"
-  class="
-    mt-32 px-5 w-full h-full leading-8 text-center
-    flex flex-col items-center
-  "
->
+<script>
+  import Area from '../../components/Area.svelte';
+</script>
+
+<Area id="theme">
   <h2>
     テーマは「好天」
   </h2>
@@ -30,4 +28,4 @@
   <p>
     というテーマをつけました。
   </p>
-</section>
+</Area>

@@ -1,9 +1,10 @@
-<section
+<script>
+  import Area from '../../components/Area.svelte';
+</script>
+
+<Area
   id="theacher-interview"
-  class="
-    mt-32 w-full h-full leading-8 text-center
-    flex flex-col items-center
-  "
+  padding={false}
 >
   <div class="px-5">
     <h2>
@@ -31,4 +32,4 @@
       式典終了後、当サイトまたは志摩市YouTubeチャンネルから閲覧可能になります。
     </div>
   </div>
-</section>
+</Area>

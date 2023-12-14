@@ -1,14 +1,9 @@
 <script>
+  import Area from '../../components/Area.svelte';
   import SecondaryLinkBtn from '../../components/buttons/SecondaryLinkBtn.svelte';
 </script>
 
-<section
-  id="contact"
-  class="
-    mt-32 px-5 w-full h-full leading-8 text-center
-    flex flex-col items-center
-  "
->
+<Area id="contact">
   <h2>
     お問い合わせ
   </h2>
@@ -43,4 +38,4 @@
   <SecondaryLinkBtn>
     お問い合わせはこちらから
   </SecondaryLinkBtn>
-</section>
+</Area>

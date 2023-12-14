@@ -1,14 +1,12 @@
 <script>
+  import Area from '../../components/Area.svelte';
   import PrimaryLinkBtn from '../../components/buttons/PrimaryLinkBtn.svelte';
   import SecondaryLinkBtn from '../../components/buttons/SecondaryLinkBtn.svelte';
 </script>
 
-<section
+<Area
   id="important-notice"
-  class="
-    mt-2 px-5 w-full h-full text-center
-    flex flex-col items-center
-  "
+  marginClass="mt-2"
 >
   <div class="flex flex-row gap-4">
     <span>
@@ -38,4 +36,4 @@
   <SecondaryLinkBtn href="https://youtube.com/XXX">
     YouTubeでライブ配信を行います
   </SecondaryLinkBtn>
-</section>
+</Area>
