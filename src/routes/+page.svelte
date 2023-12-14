@@ -13,7 +13,7 @@
 
 <main class="
   w-full h-full
-  flex flex-col items-center justify-center
+  flex flex-col items-center
   overflow-x-hidden
 ">
   <!-- ポスター -->
