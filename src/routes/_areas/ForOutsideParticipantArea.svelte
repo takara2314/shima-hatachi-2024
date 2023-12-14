@@ -1,7 +1,23 @@
-<section id="for-outside-participant">
+<script>
+  import SecondaryLinkBtn from '../../components/buttons/SecondaryLinkBtn.svelte';
+</script>
+
+<section
+  id="for-outside-participant"
+  class="
+    mt-32 px-5 w-full h-full leading-8 text-center
+    flex flex-col items-center
+  "
+>
   <h2>
     市外に住所がある人へ
   </h2>
 
-  テキスト
+  <p>
+    志摩市外に住所があり、志摩市の式典に参加を希望する人は、下記の依頼フォームからご依頼いただくか、生涯学習スポーツ課へご連絡ください。
+  </p>
+
+  <SecondaryLinkBtn>
+    案内状送付依頼フォーム
+  </SecondaryLinkBtn>
 </section>
