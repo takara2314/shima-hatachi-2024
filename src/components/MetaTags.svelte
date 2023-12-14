@@ -20,7 +20,7 @@
         {
           url: `${PUBLIC_SITE_URL}/ogp.webp`,
           width: 800,
-          height: 600,
+          height: 580,
           alt: 'OGP'
         }
       ],
