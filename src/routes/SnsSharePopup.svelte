@@ -1,6 +1,6 @@
 <footer
   class="
-    w-full h-16 bg-white
+    w-full h-20 bg-white
     shadow-[0_-0.5rem_0.5rem_0_rgba(0,0,0,0.05)]
     fixed bottom-0 left-0
   "
@@ -8,7 +8,7 @@
   <a
     href="#sns-share"
     class="
-      p-3 w-full h-full
+      p-3 w-full h-16 text-center
       flex flex-col items-center justify-center
     "
   >

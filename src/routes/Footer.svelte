@@ -4,7 +4,7 @@
 
 <footer
   class="
-    mt-32 px-5 pt-8 pb-24 w-full bg-neutral-100
+    mt-32 px-5 pt-8 pb-28 w-full bg-neutral-100
     flex flex-col items-center
     border-t-2 border-neutral-200
   "
