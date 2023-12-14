@@ -35,7 +35,9 @@
     </div>
   </div>
 
-  <SecondaryLinkBtn>
+  <SecondaryLinkBtn
+    href="https://www.city.shima.mie.jp/cgi-bin/inquiry.php/47?page_no=5543"
+  >
     お問い合わせはこちらから
   </SecondaryLinkBtn>
 </Area>

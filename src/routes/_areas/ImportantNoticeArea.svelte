@@ -33,7 +33,7 @@
     パンフレットはこちら
   </PrimaryLinkBtn>
 
-  <SecondaryLinkBtn href="https://youtube.com/XXX">
+  <SecondaryLinkBtn href="https://www.youtube.com/channel/UCHJ5KUajzEZT2YRp5-EeScg">
     YouTubeでライブ配信を行います
   </SecondaryLinkBtn>
 </Area>
