@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Inter', '"M PLUS 1p"', 'Meiryo', 'sans-serif']
+        'sans': ['"Klee One"', 'Meiryo', 'sans-serif'],
+        'header': ['"Train One"', '"Klee One"', 'Meiryo', 'sans-serif']
       }
     }
   },
