@@ -9,6 +9,7 @@
     href="#sns-share"
     class="
       p-3 w-full h-16 text-center
+      text-base xl:text-xl
       flex flex-col items-center justify-center
     "
   >

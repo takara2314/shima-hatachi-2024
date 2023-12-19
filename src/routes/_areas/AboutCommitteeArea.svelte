@@ -6,7 +6,7 @@
 
 <Area
   id="about-committee"
-  padding={false}
+  paddingClass="px-0 xl:px-10"
 >
   <div class="px-4">
     <h2>

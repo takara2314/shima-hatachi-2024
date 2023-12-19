@@ -7,7 +7,7 @@
   export let marginClass = '';
   export let padding = true;
   export let paddingClass = '';
-  export let defaultShowing = false;
+  export let defaultShowing = true;
 
   let isInView: boolean = defaultShowing;
 </script>
@@ -20,7 +20,7 @@
       : ''
     }
     ${padding
-      ? (paddingClass === '' ? 'px-5' : paddingClass)
+      ? (paddingClass === '' ? 'px-5 xl:px-10' : paddingClass)
       : ''
     }
     w-full h-full leading-8 text-center
