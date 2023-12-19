@@ -18,28 +18,41 @@
 
 <main class="
   w-full h-full
-  flex flex-col items-center
+  flex flex-col
   overflow-x-hidden
 ">
-  <!-- ポスター -->
-  <Poster />
+  <div class="
+    w-full xl:w-1/3 h-full bg-white
+    xl:border-r-2 xl:border-gray-300
+    flex flex-col
+    xl:fixed xl:top-0 xl:left-0
+    overflow-x-hidden
+  ">
+    <!-- ポスター -->
+    <Poster />
+    <!-- 重要なお知らせ -->
+    <ImportantNoticeArea />
+  </div>
 
-  <!-- 重要なお知らせ -->
-  <ImportantNoticeArea />
-  <!-- テーマは「好天」 -->
-  <ThemeArea />
-  <!-- 対象者 -->
-  <TargetArea />
-  <!-- 恩師インタビュー -->
-  <TeacherInterviewArea />
-  <!-- 市外に住所がある人へ -->
-  <ForOutsideParticipantArea />
-  <!-- 思い出を投稿しよう！ -->
-  <SnsShareArea />
-  <!-- 志摩市二十歳の集い実行委員会について -->
-  <AboutCommitteeArea />
-  <!-- お問い合わせ -->
-  <ContactArea />
+  <div class="
+    xl:ml-[33.333333%] w-full xl:w-2/3 h-full
+    flex flex-col
+  ">
+    <!-- テーマは「好天」 -->
+    <ThemeArea />
+    <!-- 対象者 -->
+    <TargetArea />
+    <!-- 恩師インタビュー -->
+    <TeacherInterviewArea />
+    <!-- 市外に住所がある人へ -->
+    <ForOutsideParticipantArea />
+    <!-- 思い出を投稿しよう！ -->
+    <SnsShareArea />
+    <!-- 志摩市二十歳の集い実行委員会について -->
+    <AboutCommitteeArea />
+    <!-- お問い合わせ -->
+    <ContactArea />
+  </div>
 
   <!-- SNSシェア用ポップアップ -->
   <SnsSharePopup />

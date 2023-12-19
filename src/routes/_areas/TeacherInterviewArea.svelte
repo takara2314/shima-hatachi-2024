@@ -6,7 +6,7 @@
 
 <Area
   id="theacher-interview"
-  padding={false}
+  paddingClass="px-0 xl:px-10"
 >
   <div class="px-5">
     <h2>

@@ -6,7 +6,8 @@
 
 <Area
   id="theme"
-  padding={false}
+  paddingClass="px-0 xl:px-10"
+  marginClass="mt-32 xl:mt-10"
 >
   <div class="px-4">
     <h2>

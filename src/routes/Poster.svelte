@@ -3,7 +3,7 @@
 </script>
 
 <section id="poster">
-  <div class="w-screen h-[calc(100dvw*784/720)]">
+  <div class="w-[100dvw] xl:w-[33dvw] h-[calc(100dvw*784/720)] xl:h-[calc(33dvw*784/720)]">
     <img
       src={asset('/poster.webp')}
       alt="ポスター"
