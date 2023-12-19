@@ -10,6 +10,7 @@
   import AboutCommitteeArea from './_areas/AboutCommitteeArea.svelte';
   import ContactArea from './_areas/ContactArea.svelte';
   import SnsSharePopup from './SnsSharePopup.svelte';
+  import Footer from './Footer.svelte';
 </script>
 
 <MetaTags
@@ -56,4 +57,7 @@
 
   <!-- SNSシェア用ポップアップ -->
   <SnsSharePopup />
+
+  <!-- フッター -->
+  <Footer />
 </main>
