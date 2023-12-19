@@ -1,5 +1,5 @@
 <main class="
-  p-10 w-full h-full
+  p-10 w-full h-screen
   flex flex-col items-center justify-center
   overflow-x-hidden
 ">
