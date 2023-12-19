@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply scroll-smooth;
+}
+
 body {
     -webkit-tap-highlight-color: transparent;
     @apply text-gray-900;
