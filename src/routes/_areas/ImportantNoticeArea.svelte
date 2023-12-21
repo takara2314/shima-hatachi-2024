@@ -31,7 +31,7 @@
     </span>
   </div>
 
-  <PrimaryLinkBtn href={asset('/pamphlet.pdf')}>
+  <PrimaryLinkBtn href="#">
     パンフレットは当日に配布します
   </PrimaryLinkBtn>
 
