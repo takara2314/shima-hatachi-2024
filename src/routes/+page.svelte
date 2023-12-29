@@ -12,6 +12,7 @@
   import SnsSharePopup from './SnsSharePopup.svelte';
   import Footer from './Footer.svelte';
   import InformationArea from './_areas/InformationArea.svelte';
+  import HamburgerMenu from './HamburgerMenu.svelte';
 </script>
 
 <MetaTags
@@ -63,4 +64,7 @@
 
   <!-- フッター -->
   <Footer />
+
+  <!-- ハンバーガーメニュー -->
+  <HamburgerMenu />
 </main>
