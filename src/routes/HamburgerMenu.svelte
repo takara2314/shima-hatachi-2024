@@ -1,5 +1,6 @@
 <script type="ts">
   import { goto } from '$app/navigation';
+  import { fade, slide } from 'svelte/transition';
   import clsx from 'clsx';
   import Dismiss from '../components/icons/Dismiss.svelte';
   import BudouxP from '../components/p/BudouxP.svelte';
@@ -74,6 +75,7 @@
       z-10
     "
     on:click={() => isOpen = false}
+    transition:fade
   />
 
   <!-- ハンバーガーメニュー -->
@@ -82,6 +84,7 @@
       bg-white flex flex-col
       fixed top-0 right-0 w-2/3 h-full z-20
     "
+    transition:slide={{ axis: 'x' }}
   >
     <!-- 閉じるボタン -->
     <li class="p-2 w-full h-16 text-right">
