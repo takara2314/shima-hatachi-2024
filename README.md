@@ -11,6 +11,8 @@
 
 令和6年 志摩市二十歳の集い（旧成人式）のウェブサイトです。
 
+（志摩市役所から許可をいただいてリポジトリを公開しています）
+
 ## サイト
 
 [web.city.shima.mie.jp/twenty/](https://web.city.shima.mie.jp/twenty/)
