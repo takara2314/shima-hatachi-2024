@@ -10,39 +10,39 @@
   const menus = [
     {
       content: 'トップ',
-      href: '/',
+      sectionId: '#important-notice',
     },
     {
       content: 'テーマ',
-      href: '/#theme',
+      sectionId: '#theme',
     },
     {
       content: '対象者',
-      href: '/#target',
+      sectionId: '#target',
     },
     {
       content: '恩師インタビュー',
-      href: '/#teacher-interview',
+      sectionId: '#teacher-interview',
     },
     {
       content: '市外に住所がある人へ',
-      href: '/#for-outside-participant',
+      sectionId: '#for-outside-participant',
     },
     {
       content: '思い出を投稿しよう！',
-      href: '/#sns-share',
+      sectionId: '#sns-share',
     },
     {
       content: 'お知らせ',
-      href: '/#information',
+      sectionId: '#information',
     },
     {
       content: '志摩市二十歳の集い実行委員会について',
-      href: '/#about-committee',
+      sectionId: '#about-committee',
     },
     {
       content: 'お問い合わせ',
-      href: '/#contact',
+      sectionId: '#contact',
     }
   ]
 </script>
@@ -109,7 +109,7 @@
         <button
           class="px-5 w-full h-full"
           on:click={() => {
-            goto(menu.href);
+            goto(menu.sectionId);
             isOpen = false;
           }}
           aria-label={menu.content}
