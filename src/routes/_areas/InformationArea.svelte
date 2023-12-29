@@ -114,7 +114,7 @@
   ];
 </script>
 
-<Area id="for-outside-participant">
+<Area id="information">
   <h2>
     お知らせ
   </h2>
