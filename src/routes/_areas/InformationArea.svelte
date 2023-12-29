@@ -18,7 +18,7 @@
           title: '飲酒運転は絶対に「しない！」「させない！」',
           context: '飲酒運転は、厳しい行政処分と罰則が科されますので、絶対にしないでください。',
           buttonText: '詳細を見る',
-          href: asset('/drunk-driving.pdf')
+          href: asset('/anti-drunk-driving.pdf')
         }
       ]
     },
