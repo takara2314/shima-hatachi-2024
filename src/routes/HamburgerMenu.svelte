@@ -10,7 +10,7 @@
   const menus = [
     {
       content: 'トップ',
-      sectionId: '#important-notice',
+      sectionId: '#poster',
     },
     {
       content: 'テーマ',
