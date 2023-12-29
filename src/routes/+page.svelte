@@ -11,6 +11,7 @@
   import ContactArea from './_areas/ContactArea.svelte';
   import SnsSharePopup from './SnsSharePopup.svelte';
   import Footer from './Footer.svelte';
+  import InformationArea from './_areas/InformationArea.svelte';
 </script>
 
 <MetaTags
@@ -49,6 +50,8 @@
     <ForOutsideParticipantArea />
     <!-- 思い出を投稿しよう！ -->
     <SnsShareArea />
+    <!-- お知らせ -->
+    <InformationArea />
     <!-- 志摩市二十歳の集い実行委員会について -->
     <AboutCommitteeArea />
     <!-- お問い合わせ -->
