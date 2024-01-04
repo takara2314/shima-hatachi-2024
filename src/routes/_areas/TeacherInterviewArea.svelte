@@ -1,7 +1,7 @@
 <script>
   import Area from '../../components/Area.svelte';
   import BudouxP from '../../components/p/BudouxP.svelte';
-  import BudouxDiv from '../../components/div/BudouxDiv.svelte';
+  import BudouXDiv from '../../components/div/BudouXDiv.svelte';
 </script>
 
 <Area
@@ -31,7 +31,7 @@
       会場で上映
     </h3>
 
-    <BudouxDiv
+    <BudouXDiv
       text="式典終了後、当サイトおよび志摩市YouTubeチャンネルから閲覧可能になります。"
     />
   </div>
