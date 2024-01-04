@@ -1,6 +1,6 @@
 <script>
   import Area from '../../components/Area.svelte';
-  import BudouxP from '../../components/p/BudouxP.svelte';
+  import BudouXP from '../../components/p/BudouXP.svelte';
   import { asset } from '$lib/asset';
 </script>
 
@@ -14,16 +14,16 @@
       テーマは「好天」
     </h2>
 
-    <BudouxP
+    <BudouXP
       text="新型コロナウイルス感染症による影響も緩和され、今まで通りの日常が取りもどされつつあります。"
     />
 
-    <BudouxP
+    <BudouXP
       text="しかし、新型コロナウイルス感染症流行以前と同じ生活をするとなると、まだまだ曇り空が広がっています。"
       class="mt-10"
     />
 
-    <BudouxP
+    <BudouXP
       text="そこで我々の世代、学生から社会人まで二十歳になる全ての人が、 「二十歳の集い」をきっかけに曇り空を晴らそうという思いを込め"
       class="mt-10"
     />

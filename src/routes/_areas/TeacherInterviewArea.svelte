@@ -1,6 +1,6 @@
 <script>
   import Area from '../../components/Area.svelte';
-  import BudouxP from '../../components/p/BudouxP.svelte';
+  import BudouXP from '../../components/p/BudouXP.svelte';
   import BudouXDiv from '../../components/div/BudouXDiv.svelte';
 </script>
 
@@ -13,11 +13,11 @@
       恩師インタビュー
     </h2>
 
-    <BudouxP
+    <BudouXP
       text="二十歳の皆さん、中学3年生の頃の担任・副担任は覚えていますか。"
     />
 
-    <BudouxP
+    <BudouXP
       text="お世話になった先生方に、インタビューを行いました。"
       class="mt-10"
     />
