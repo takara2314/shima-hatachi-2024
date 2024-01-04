@@ -5,7 +5,7 @@
 </script>
 
 <Area
-  id="theacher-interview"
+  id="teacher-interview"
   paddingClass="px-0 xl:px-10"
 >
   <div class="px-5">
