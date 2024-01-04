@@ -51,4 +51,9 @@
       丸文工業㈱
     </small>
   </div>
+  <div class="mt-2 text-sm text-gray-600 underline">
+    <a href="https://github.com/takara2314/shima-hatachi-2024">
+      ホームページのソースコード
+    </a>
+  </div>
 </footer>
