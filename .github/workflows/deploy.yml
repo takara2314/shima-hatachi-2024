@@ -21,7 +21,9 @@ jobs:
 
     - name: Create .env (environment variables file)
       run: >
-        node --loader ts-node/esm .github/createEnviron.ts
+        node
+        --import 'data:text/javascript,import { register } from "node:module"; import { pathToFileURL } from "node:url"; register("ts-node/esm", pathToFileURL("./"));'
+        .github/createEnviron.ts
         --BASE_PATH ${{ secrets.BASE_PATH }}
         --ASSETS_URL ${{ secrets.ASSETS_URL }}
         --PUBLIC_SITE_URL ${{ secrets.ASSETS_URL }}
