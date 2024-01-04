@@ -18,6 +18,129 @@
       iconAlt: '生涯学習スポーツ課'
     }
   ];
+
+  const sponsors = [
+    {
+      parentName: '三重県建設業協会志摩支部',
+      href: 'https://www.shimakensetsu.com/',
+      children: [
+        {
+          name: '丸文工業㈱',
+          href: 'https://www.marubun-kogyo.co.jp/'
+        },
+        {
+          name: '磯部建設工業㈱',
+          href: 'https://www.isobe-kensetsu.com/'
+        },
+        {
+          name: '作田建設㈲',
+          href: 'https://www.sakuda-k.jp/'
+        },
+        {
+          name: '㈲北出建設',
+          href: ''
+        },
+        {
+          name: '㈱廣建設',
+          href: 'https://www.hiroken-shima.com/'
+        },
+        {
+          name: '三橋建設㈱',
+          href: 'https://www.city.shima.mie.jp/material/files/group/16/mitsuhashikensetsu.pdf'
+        },
+        {
+          name: '畑中建設工業㈱',
+          href: 'http://www.hatanaka-kk.co.jp/'
+        },
+        {
+          name: '㈱石吉組',
+          href: 'https://www.ishikichi.com/'
+        },
+        {
+          name: '㈲出馬重機',
+          href: 'http://www.izuma.co.jp/'
+        },
+        {
+          name: '㈱山本建材',
+          href: 'http://www.e-yamaken.com/'
+        },
+        {
+          name: '㈲小池建設',
+          href: 'http://koike-co.info/'
+        },
+        {
+          name: '㈲岡権組',
+          href: ''
+        },
+        {
+          name: '㈲丸福工業',
+          href: 'https://www.marufuku-sanpai.com/'
+        },
+        {
+          name: 'セイケン工業㈱',
+          href: 'https://seiken-kougyou.jp/'
+        },
+      ]
+    },
+    {
+      parentName: '志摩建設事業協同組合',
+      href: 'https://www.shima-kensetsu.com/',
+      children: [
+        {
+          name: 'Ac.s.L',
+          href: ''
+        },
+        {
+          name: '㈲堂岡工務店',
+          href: 'https://pc-nct.biz/douoka/'
+        },
+        {
+          name: '㈱吉村塗装',
+          href: 'https://www.yoshimura-paint.com/'
+        },
+        {
+          name: '㈱銅坂',
+          href: 'https://dousaka.com/'
+        },
+        {
+          name: '前橋設備工業㈱',
+          href: 'https://www.maehashi.jp/'
+        },
+        {
+          name: '㈱天白組',
+          href: ''
+        },
+        {
+          name: 'ヨコタ建設㈱',
+          href: ''
+        },
+        {
+          name: '㈲宮柴水工',
+          href: 'https://miyashiba.com/'
+        },
+        {
+          name: '㈱山紀建設',
+          href: 'http://www.yamaki-kensetsu.jp/'
+        },
+        {
+          name: '㈲東建設',
+          href: ''
+        },
+        {
+          name: '中部産業㈱',
+          href: 'https://chubusangyou.co.jp/'
+        },
+        {
+          name: '南部急送㈲',
+          href: 'https://nanbu-kyusou.co.jp/'
+        },
+        {
+          name: '㈲豊国',
+          href: 'https://www.412103.net/'
+        },
+      ]
+    }
+  ]
 </script>
 
 <footer
@@ -38,20 +161,46 @@
     {/each}
   </ul>
 
-  <div class="mt-10">
+  <div class="mt-8">
     <small class="text-gray-600">
       © 2023-2024 志摩市二十歳の集い実行委員会
     </small>
   </div>
-  <div>
-    <small class="text-gray-600">
-      <span class="select-none">
-        協賛：
-      </span>
-      丸文工業㈱
+
+  <div class="mt-8">
+    <small class="text-gray-600 text-center">
+      <p class="select-none">
+        協賛業者：
+      </p>
+
+      {#each sponsors as parent, parentIndex}
+        <p class={parentIndex !== 0 ? 'mt-5' : undefined}>
+          <a
+            class="text-gray-600 text-stroke-gray-600 underline"
+            href={parent.href}
+          >
+            {parent.parentName}
+          </a>
+        </p>
+
+        <p class="mt-2 text-gray-500">
+          （
+          {#each parent.children as child, index}
+            <a
+              class={child.href !== '' ? 'underline' : undefined}
+              href={child.href !== '' ? child.href : undefined}
+            >
+              {child.name}
+            </a>
+            {index !== parent.children.length - 1 ? '、' : ''}
+          {/each}
+          ）
+        </p>
+      {/each}
     </small>
   </div>
-  <div class="mt-2 text-sm text-gray-600 underline">
+
+  <div class="mt-8 text-sm text-gray-600 underline">
     <a href="https://github.com/takara2314/shima-hatachi-2024">
       ホームページのソースコード
     </a>
