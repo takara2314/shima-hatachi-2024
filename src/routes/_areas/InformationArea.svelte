@@ -1,7 +1,7 @@
 <script lang="ts">
   import { asset } from '$lib/asset';
   import Area from '../../components/Area.svelte';
-  import BudouxP from '../../components/p/BudouxP.svelte';
+  import BudouXP from '../../components/p/BudouXP.svelte';
   import InformationAreaItem from './InformationAreaItem.svelte';
 
   const infos = [
@@ -119,11 +119,11 @@
     お知らせ
   </h2>
 
-  <BudouxP
+  <BudouXP
     text="二十歳の節目を迎えられる皆様へ、市役所と関係各所からお知らせです。"
   />
 
-  <BudouxP
+  <BudouXP
     text="この件のお問い合わせは、各差出人へお願いします。"
   />
 

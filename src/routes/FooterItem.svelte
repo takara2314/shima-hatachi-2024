@@ -1,5 +1,5 @@
 <script lang="ts">
-  import BudouxP from '../components/p/BudouxP.svelte';
+  import BudouXP from '../components/p/BudouXP.svelte';
   export let name: string;
   export let description: string;
   export let href: string;
@@ -32,7 +32,7 @@
       ">
         {name}
       </h3>
-      <BudouxP
+      <BudouXP
         text={description}
         class="text-xs"
       />
