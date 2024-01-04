@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { loadDefaultJapaneseParser } from 'budoux';
+  import { loadDefaultJapaneseParser } from 'BudouX';
 
   export let text: string;
   const parser = loadDefaultJapaneseParser();
