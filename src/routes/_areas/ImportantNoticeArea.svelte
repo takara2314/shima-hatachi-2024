@@ -30,8 +30,8 @@
     </span>
   </div>
 
-  <PrimaryLinkBtn href={asset('/pamphlet.pdf')}>
-    パンフレットはこちら
+  <PrimaryLinkBtn href={asset('/program.pdf')}>
+    式次第はこちら
   </PrimaryLinkBtn>
 
   <SecondaryLinkBtn href="https://www.youtube.com/channel/UCHJ5KUajzEZT2YRp5-EeScg">
