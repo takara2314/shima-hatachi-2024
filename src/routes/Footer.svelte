@@ -74,7 +74,7 @@
         },
         {
           name: '㈲丸福工業',
-          href: 'https://www.marufuku-sanpai.com/'
+          href: 'http://www.marufuku-sanpai.com/'
         },
         {
           name: 'セイケン工業㈱',
