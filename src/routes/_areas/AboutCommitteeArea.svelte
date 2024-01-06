@@ -33,4 +33,9 @@
     alt="恩師インタビューについて先生方に説明"
     class="w-full"
   />
+  <img
+    src={asset('/photos/committee4.webp')}
+    alt="リハーサルの記念写真"
+    class="w-full"
+  />
 </Area>
