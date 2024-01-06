@@ -26,7 +26,7 @@
       children: [
         {
           name: '丸文工業㈱',
-          href: 'https://www.marubun-kogyo.co.jp/'
+          href: 'https://marubun-k.co.jp/'
         },
         {
           name: '磯部建設工業㈱',
