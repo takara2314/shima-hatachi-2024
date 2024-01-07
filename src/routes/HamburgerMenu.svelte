@@ -3,7 +3,7 @@
   import { fade, slide } from 'svelte/transition';
   import clsx from 'clsx';
   import Dismiss from '../components/icons/Dismiss.svelte';
-  import BudouxP from '../components/p/BudouxP.svelte';
+  import BudouXP from '../components/p/BudouXP.svelte';
 
   let isOpen = false;
 
@@ -114,7 +114,7 @@
           }}
           aria-label={menu.content}
         >
-          <BudouxP text={menu.content} />
+          <BudouXP text={menu.content} />
         </button>
       </li>
     {/each}

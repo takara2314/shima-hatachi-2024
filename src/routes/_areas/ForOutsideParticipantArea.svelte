@@ -1,6 +1,6 @@
 <script>
   import Area from '../../components/Area.svelte';
-  import BudouxP from '../../components/p/BudouxP.svelte';
+  import BudouXP from '../../components/p/BudouXP.svelte';
   import SecondaryLinkBtn from '../../components/buttons/SecondaryLinkBtn.svelte';
 </script>
 
@@ -9,7 +9,7 @@
     市外に住所がある人へ
   </h2>
 
-  <BudouxP
+  <BudouXP
     text="志摩市外に住所があり、志摩市の式典に参加を希望する人は、下記の依頼フォームからご依頼いただくか、生涯学習スポーツ課へご連絡ください。"
   />
 

@@ -20,3 +20,8 @@ h2 {
 h2::after {
     @apply mt-1 mb-6 w-full content-[''] border-b-2 border-red-500 block;
 }
+
+.text-stroke-gray-600 {
+    -webkit-text-stroke: 0.025rem rgb(75, 85, 99);
+    text-stroke: 0.025rem rgb(75, 85, 99);
+}

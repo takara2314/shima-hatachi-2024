@@ -1,11 +1,11 @@
 <script>
   import Area from '../../components/Area.svelte';
-  import BudouxP from '../../components/p/BudouxP.svelte';
-  import BudouxDiv from '../../components/div/BudouxDiv.svelte';
+  import BudouXP from '../../components/p/BudouXP.svelte';
+  import BudouXDiv from '../../components/div/BudouXDiv.svelte';
 </script>
 
 <Area
-  id="theacher-interview"
+  id="teacher-interview"
   paddingClass="px-0 xl:px-10"
 >
   <div class="px-5">
@@ -13,11 +13,11 @@
       恩師インタビュー
     </h2>
 
-    <BudouxP
+    <BudouXP
       text="二十歳の皆さん、中学3年生の頃の担任・副担任は覚えていますか。"
     />
 
-    <BudouxP
+    <BudouXP
       text="お世話になった先生方に、インタビューを行いました。"
       class="mt-10"
     />
@@ -31,8 +31,8 @@
       会場で上映
     </h3>
 
-    <BudouxDiv
-      text="式典終了後、当サイトおよび志摩市YouTubeチャンネルから閲覧可能になります。"
+    <BudouXDiv
+      text="式典終了後1週間以内に、当サイトおよび志摩市YouTubeチャンネルから閲覧可能になります。"
     />
   </div>
 </Area>

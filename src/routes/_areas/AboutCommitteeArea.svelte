@@ -1,6 +1,6 @@
 <script>
   import Area from '../../components/Area.svelte';
-  import BudouxP from '../../components/p/BudouxP.svelte';
+  import BudouXP from '../../components/p/BudouXP.svelte';
   import { asset } from '$lib/asset';
 </script>
 
@@ -13,7 +13,7 @@
       志摩市二十歳の集い実行委員会について
     </h2>
 
-    <BudouxP
+    <BudouXP
       text="志摩市二十歳の集い実行委員会において、実行委員の皆様で式典の企画、運営に取り組んでいます。"
     />
   </div>
@@ -31,6 +31,11 @@
   <img
     src={asset('/photos/committee3.webp')}
     alt="恩師インタビューについて先生方に説明"
+    class="w-full"
+  />
+  <img
+    src={asset('/photos/committee4.webp')}
+    alt="リハーサルの記念写真"
     class="w-full"
   />
 </Area>

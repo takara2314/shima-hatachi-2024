@@ -30,8 +30,8 @@
     </span>
   </div>
 
-  <PrimaryLinkBtn href="#">
-    パンフレットは当日に配布します
+  <PrimaryLinkBtn href={asset('/program.pdf')}>
+    式次第はこちら
   </PrimaryLinkBtn>
 
   <SecondaryLinkBtn href="https://www.youtube.com/watch?v=s-cso0AaKRE">

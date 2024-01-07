@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Budoux from '../Budoux.svelte';
+  import BudouX from '../BudouX.svelte';
   export let text: string;
 </script>
 
 <div class={$$props.class}>
-  <Budoux text={text} />
+  <BudouX text={text} />
 </div>

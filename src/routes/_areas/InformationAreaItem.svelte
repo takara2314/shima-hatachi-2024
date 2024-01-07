@@ -1,5 +1,5 @@
 <script lang="ts">
-  import BudouxP from '../../components/p/BudouxP.svelte';
+  import BudouXP from '../../components/p/BudouXP.svelte';
   export let title: string;
   export let context: string;
   export let buttonText: string;
@@ -20,7 +20,7 @@
       ">
         {title}
       </h3>
-      <BudouxP
+      <BudouXP
         text={context}
       />
 
