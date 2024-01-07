@@ -8,7 +8,6 @@
 <Area
   id="important-notice"
   marginClass="mt-2"
-  defaultShowing
 >
   <div class="flex flex-row gap-4">
     <span>
@@ -35,7 +34,7 @@
     パンフレットは当日に配布します
   </PrimaryLinkBtn>
 
-  <SecondaryLinkBtn href="https://www.youtube.com/channel/UCHJ5KUajzEZT2YRp5-EeScg">
+  <SecondaryLinkBtn href="https://www.youtube.com/watch?v=s-cso0AaKRE">
     YouTubeでライブ配信を行います
   </SecondaryLinkBtn>
 </Area>
