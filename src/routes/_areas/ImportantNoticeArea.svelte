@@ -34,7 +34,7 @@
     式次第はこちら
   </PrimaryLinkBtn>
 
-  <SecondaryLinkBtn href="https://www.youtube.com/watch?v=s-cso0AaKRE">
-    YouTubeでライブ配信を行います
+  <SecondaryLinkBtn href="https://www.youtube.com/watch?v=HHioHItnbhE">
+    式典のアーカイブはこちら
   </SecondaryLinkBtn>
 </Area>
