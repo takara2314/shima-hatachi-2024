@@ -1,4 +1,5 @@
 <script>
+  import Youtube from 'svelte-youtube-embed';
   import Area from '../../components/Area.svelte';
   import BudouXP from '../../components/p/BudouXP.svelte';
   import BudouXDiv from '../../components/div/BudouXDiv.svelte';
@@ -24,15 +25,11 @@
   </div>
 
   <div class="
-    mt-10 p-5 w-full aspect-video select-none bg-neutral-300
-    flex flex-col items-center justify-center gap-5
+    mt-10 w-full aspect-video bg-neutral-300
   ">
-    <h3 class="text-5xl font-heading">
-      会場で上映
-    </h3>
-
-    <BudouXDiv
-      text="式典終了後1週間以内に、当サイトおよび志摩市YouTubeチャンネルから閲覧可能になります。"
+    <Youtube
+      id="kmRPGpkJ94Y"
+      animations={false}
     />
   </div>
 </Area>
