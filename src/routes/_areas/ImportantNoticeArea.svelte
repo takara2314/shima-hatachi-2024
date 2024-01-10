@@ -34,7 +34,7 @@
     式次第はこちら
   </PrimaryLinkBtn>
 
-  <SecondaryLinkBtn href="https://www.youtube.com/watch?v=HHioHItnbhE">
+  <SecondaryLinkBtn href="https://www.youtube.com/watch?v=UFj5gGeA7z4">
     式典のアーカイブはこちら
   </SecondaryLinkBtn>
 </Area>
